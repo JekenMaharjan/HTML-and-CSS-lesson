@@ -1,0 +1,51 @@
+
+<!--
+  Lesson 4: Chrome DevTools & CSS Box Model
+
+  What we learn:
+  1.Use Inspect in any website to open DevTools to find exact color-code and spacing
+  2.CSS Box Model
+    2.1.How much space an element takes up
+    2.2.How far it is away from other elements
+-->
+
+<button class="join">
+  JOIN 
+</button>
+
+<style>
+  .join{
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 95, 212);
+    border-color: rgb(6, 95, 212);
+    border-width: 1px;
+    cursor: pointer;
+    border-style: solid;
+    transition: background-color 0.15s;
+    margin-right: 8px;
+    /*
+    margin -> Spacing on the outside of the element/button
+    margin can be applied in all 4 directions
+    */
+    padding-top: 9px;
+    padding-right: 15px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    /*
+    padding -> Spacing on the inside of the element/button
+    padding is also applicable in all 4 directions
+    It is better to use padding rather than height/width
+    i.e. padding > height/width
+    */
+    vertical-align: top;
+    /*
+    vertical-align -> element/button will align to top or provided value of vertical-align
+    */
+  }
+
+  .join:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+  }
+</style>
+

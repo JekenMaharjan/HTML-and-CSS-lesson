@@ -1,0 +1,140 @@
+<!--
+  Lesson 4 Exercises: Chrome DevTools & CSS Box Model
+
+  CHALLENGE EXERCISES
+  Recreate the designs below using the Box Model:
+-->
+
+
+<!--
+  1.Pagination
+-->
+<button>
+  Back
+</button>
+
+<a href="">1</a>
+<a href="">2</a>
+<a href="">3</a>
+<a href="">4</a>
+<a href="">5</a>
+
+<button>
+  Next
+</button>
+
+
+<!--
+  2.Stretch
+-->
+<button class="stretch">
+  Stretch
+</button>
+
+<style>
+  .stretch{
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: padding 0.15s;
+  }
+
+  .stretch:hover{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+</style>
+
+
+<!--
+  3.3D Click
+-->
+<button class="shadow">
+  Shadow
+</button>
+
+<style>
+  .shadow{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.15);
+  }
+
+  .shadow:active{
+    box-shadow: none;
+    margin-left: 2px;
+    margin-top: 2px;
+  }
+</style>
+
+
+<!--
+  4.Margin and padding together
+-->
+<button class="one">
+  One
+</button>
+
+<button class="two">
+  Two
+</button>
+
+<button class="three"> 
+  Three
+</button>
+
+<style>
+  .one{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left: 15px;
+    margin-right: 7.4px;
+    transition: padding 0.2s, margin 0.2s;
+  }
+
+  .one:hover{
+    padding-left: 9px;
+    margin-left: 12px;
+    padding-right: 9px;
+    margin-right: 4.4px;
+  }
+
+  .two{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left: 7.4px;
+    margin-right: 7.4px;
+    transition: padding 0.2s, margin 0.2s;
+  }
+
+  .two:hover{
+    padding-left: 9px;
+    margin-left: 4.4px;
+    padding-right: 9px;
+    margin-right: 4.4px;
+  }
+
+  .three{
+    background-color: green;
+    color: white;
+    border: none;
+    margin-left: 7.4px;
+    margin-right: 7.4px;
+    transition: padding 0.2s, margin 0.2s;
+  }
+
+  .three:hover{
+    padding-left: 9px;
+    margin-left: 4.4px;
+    padding-right: 9px;
+    margin-right: 4.4px;
+  }
+</style>

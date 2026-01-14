@@ -1,4 +1,3 @@
-
 <!--
   Lesson 3: Hover, Transitions and Shadows
 
@@ -13,95 +12,95 @@
   Creating Buttons
 -->
 <button class="subscribe-button">
-  SUBSCRIBE
+    SUBSCRIBE
 </button>
 
 <button class="join-button">
-  JOIN
+    JOIN
 </button>
 
 <button class="tweet-button">
-  Tweet
+    Tweet
 </button>
 
 <style>
-  .subscribe-button{
-    background-color: rgb(197, 0, 0);
-    color: white;
-    border: none;
-    height: 30px;
-    width: 105px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    transition: opacity 0.15s;
-    /*
+    .subscribe-button {
+        background-color: rgb(197, 0, 0);
+        color: white;
+        border: none;
+        height: 30px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+        /*
     transition takes 2 values i.e.
     1. What we wanna transition? 
     i.e. opacity
     2. How long will this transition duration take? 
     i.e. 0.15s which is known as good transition duration
     */
-  }
+    }
 
-  .subscribe-button:hover{  
-    /* 
+    .subscribe-button:hover {
+        /* 
     hover, here is pseudo class and activates when we hover 
     */
-    opacity: 0.8;   
-    /* 
+        opacity: 0.8;
+        /* 
     Opacity range = 0 to 1 
     */
-  }
+    }
 
-  .subscribe-button:active{   
-    /* 
+    .subscribe-button:active {
+        /* 
     active -> Activates when we click 
     */
-    opacity: 0.5;
-  }
+        opacity: 0.5;
+    }
 
-  .join-button{
-    background-color: white;
-    border-color: rgb(79, 79, 213);
-    border-style: solid;
-    border-width: 1px;
-    color: rgb(64, 64, 188);
-    height: 30px;
-    width: 62px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    transition: background-color 0.15s, color 0.15s, opacity 1s;
-  }
+    .join-button {
+        background-color: white;
+        border-color: rgb(79, 79, 213);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(64, 64, 188);
+        height: 30px;
+        width: 62px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.15s, color 0.15s, opacity 1s;
+    }
 
-  .join-button:hover{
-    background-color: rgb(64, 64, 188);
-    color: white;
-    opacity: 0.3;
-  }
+    .join-button:hover {
+        background-color: rgb(64, 64, 188);
+        color: white;
+        opacity: 0.3;
+    }
 
-  .join-button:active{
-    opacity: 0.5;
-  }
+    .join-button:active {
+        opacity: 0.5;
+    }
 
-  .tweet-button{
-    background-color: rgb(60, 141, 207);
-    color: white;
-    border: none;
-    height: 30px;
-    width: 70px;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 15px;
-    cursor: pointer;
-    margin-right: 8px;
-    transition: box-shadow 0.15s;
-  }
+    .tweet-button {
+        background-color: rgb(60, 141, 207);
+        color: white;
+        border: none;
+        height: 30px;
+        width: 70px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: box-shadow 0.15s;
+    }
 
-  .tweet-button:hover{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) ;
-    /*
+    .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        /*
     box-shadow -> CSS Property that creates shadow
     box-shadow takes 4 values i.e.
     1. Horizontal position of the shadow
@@ -113,5 +112,5 @@
       4.3. b = blue color
       4.4. a = opacity of color
     */
-  }
+    }
 </style>

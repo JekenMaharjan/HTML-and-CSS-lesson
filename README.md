@@ -8,5 +8,6 @@ HTML and CSS Lesson with Final Youtube Clone
 
 ### YouTube Clone
 
-![YouTube Clone Screenshot](screenshots/youtube-homepage.png)
+<img src="screenshots/youtube.png" alt="YouTube Clone Screenshot" width="600"/>
+
 
